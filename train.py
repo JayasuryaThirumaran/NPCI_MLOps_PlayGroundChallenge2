@@ -66,7 +66,7 @@ def save_model(model, label_encoders, model_path="random_forest_model.pkl", le_p
 # Main function to load, preprocess, train, and save the model
 def main():
     # File path to the CSV dataset
-    file_path = 'your_dataset.csv'  # Update this with the correct path to your dataset
+    file_path = 'bike-sharing-dataset.csv'  # Update this with the correct path to your dataset
 
     # Step 1: Load the data
     df = load_data(file_path)
