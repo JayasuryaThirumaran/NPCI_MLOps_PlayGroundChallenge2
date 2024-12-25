@@ -23,20 +23,20 @@ Participants are required to:
 
 ## Instructions
 
-### Step 1: Clone the Repository
+### Step 1: Understand the model 
+1. understand the  bike_rental_count_prediction notebook
 
 
-### Step 2: Update Dependencies in requirements.txt
-
-
-### Step 3: Implement the Gradio UI (`app.py`)
+### Step 2: Implement the Gradio UI (`app.py`)
 1. Create an `app.py` file in the root directory.
-2. In `app.py`, load the `model.pkl` file and implement the prediction logic.
+2. In `app.py`, load the `random_forest_model.pkl` file and implement the prediction logic.
 3. Use Gradio to build a UI for users to input the necessary features for bike rent prediction.
 4. Example workflow for `app.py`:
-   - Load the `model.pkl`.
+   - Load the `random_forest_model.pkl`.
    - Define a prediction function.
    - Use Gradio to create the UI.
+
+### Step 3: Update Dependencies in requirements.txt
 
 
 
@@ -46,6 +46,5 @@ Participants are required to:
 
 ### Step 5: Build and Run the Docker Container
 1. Build the Docker image
-
 2. Run the Docker container
 
