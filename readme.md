@@ -17,7 +17,8 @@ Participants are required to:
 ├── random_forest_model.pkl         # Pre-trained bike rent prediction model (provided)
 ├── README.md         # Instructions and details (this file)
 └── requirements.txt  # Dependencies for the project
-```
+└── bike_rental_count_prediction.ipynb  # Python notebook(contains model training)
+``````
 
 ---
 
